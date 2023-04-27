@@ -1,13 +1,15 @@
 <script setup>
 // import { ref } from 'vue'
 
-// defineProps({
-//   msg: String,
-// })
+defineProps({
+  msg: String,
+})
 
 // const count = ref(0)
 
-import {useCounterStore} from '../store/counter'
+// import { useCounterStore } from '../store/counter'
+import { useCounterStore } from '../store/counter2'
+
 const counter = useCounterStore();
 </script>
 
